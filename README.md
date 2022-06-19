@@ -37,13 +37,9 @@ Fișierul de ieșire va conține o singură linie cu N valori separate prin 
 poziția i reprezintă costul drumului de cost minim de la vârful sursă S până la vârful i. Dacă
 vârful i este inaccesibil din vârful S, atunci pe poziția i se va scrie șirul de caractere „INF”. 
 
-| Fișier de intrare        |
-|---------|
-| 5 7 0 <br/>0 2 4<br/>0 3 1<br/>1 0 1<br/>1 2 4<br/>2 0 1<br/>2 3 1<br/>3 4 1|
-
-| Fișier de ieșire        |
-|---------|
-| 0 INF 4 1 2|
+| Fișier de intrare        |Fișier de ieșire        |
+|---------|---------|
+| 5 7 0 <br/>0 2 4<br/>0 3 1<br/>1 0 1<br/>1 2 4<br/>2 0 1<br/>2 3 1<br/>3 4 1|0 INF 4 1 2|
 
 
 <h3>Problema 2</h3>
@@ -90,24 +86,16 @@ cost minim de la vârful sursă i până la toate vârfurile grafului. Valoare
 i reprezintă costul minim de la vârful sursă i până la vârful j. Dacă vârful j este inaccesibil din
 vârful i, atunci pe poziția j a liniei i se va scrie șirul de caractere „INF”. 
 
-| Fișier de intrare        |
-|---------|
-| 3 4<br/>0 2 6<br/>1 0 -2<br/>1 2 5<br/>2 0 -3|
-
-| Fișier de ieșire        |
-|---------|
-| 0 2 3<br/>1 0 1<br/>1 2 5<br/>2 0 0<br/>0 INF 6<br/>-2 0 4<br/>-3 INF 0|
+| Fișier de intrare        | Fișier de ieșire        |
+|---------|---|
+| 3 4<br/>0 2 6<br/>1 0 -2<br/>1 2 5<br/>2 0 -3| 0 2 3<br/>1 0 1<br/>1 2 5<br/>2 0 0<br/>0 INF 6<br/>-2 0 4<br/>-3 INF 0|
 
 
 
 
-| Fișier de intrare        |
-|---------|
-| 4 5<br/>0 1 5<br/>1 2 -3<br/>2 0 -1<br/>2 3 7<br/>3 1 -5|
-
-| Fișier de ieșire        |
-|---------|
-| -1 |
+| Fișier de intrare        |Fișier de ieșire        |
+|---------|--|
+| 4 5<br/>0 1 5<br/>1 2 -3<br/>2 0 -1<br/>2 3 7<br/>3 1 -5|-1|
 
   
 </i>
